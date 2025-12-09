@@ -23,3 +23,6 @@ Generate the code and copy the complete ui folder from the project folder and ov
 
 Compile and upload
 
+# credits
+based on the work of nishad2m8 here on github
+
