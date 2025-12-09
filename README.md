@@ -5,7 +5,21 @@ Unfortunately, is not fully supported by the mayority of the library, and the bo
 
 # setting up
 VSCode with PIOarduino. Platform Espressif 32 ver 55.3.34
+
 Clone this repo in VS
-Add the latest LVGL and SensorLib library files into the Lib folder. 
+
+Add the latest LVGL ( 9.x )and SensorLib library files into the Lib folder.
+
 Copy the waveshare-esp32-s3-touch-349.json file from the board directory into the C:\Users\...\.platformio\platforms\espressif32\boards folder.
+
+Compile and upload to your folder for a simple "hello world" screen
+
+# personal GUI
+install EEZ studio and create a new project as plain LVGL.
+
+set the screen size to 640 x 172 and add all the widget you like.
+
+Generate the code and copy the complete ui folder from the project folder and overwrite the lib/ui folder in your scketch in VScode
+
+Compile and upload
 
